@@ -2,9 +2,9 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO magic/tt_gf180_sellicott_vco
+MACRO magic/tt_um_gf180_sellicott_vco
   CLASS BLOCK ;
-  FOREIGN magic/tt_gf180_sellicott_vco ;
+  FOREIGN magic/tt_um_gf180_sellicott_vco ;
   ORIGIN 0.000 0.000 ;
   SIZE 328.720 BY 325.360 ;
   PIN clk
@@ -439,6 +439,6 @@ MACRO magic/tt_gf180_sellicott_vco
         RECT 7.000 5.000 9.000 220.760 ;
     END
   END VAPWR
-END magic/tt_gf180_sellicott_vco
+END magic/tt_um_gf180_sellicott_vco
 END LIBRARY
 
