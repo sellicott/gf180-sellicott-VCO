@@ -163,7 +163,7 @@ C {vcvs.sym} -160 -130 0 0 {name=E1 value=1}
 C {devices/gnd.sym} -160 -80 0 0 {name=l5 lab=GND}
 C {devices/lab_wire.sym} -100 -160 0 0 {name=l6 sig_type=std_logic lab=D}
 C {gf180mcu_fd_pr/nfet_03v3.sym} -120 10 0 0 {name=M_DUT
-L=0.28u
+L=0.4u
 W=2u
 nf=1
 mult=1
@@ -176,7 +176,7 @@ sa=0 sb=0 sd=0
 model=nfet_03v3
 spiceprefix=X}
 C {gf180mcu_fd_pr/nfet_03v3.sym} -370 10 0 1 {name=M2
-L=0.28u
+L=0.4u
 W=2u
 nf=1
 mult=1

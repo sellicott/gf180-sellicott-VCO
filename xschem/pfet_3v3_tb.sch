@@ -172,8 +172,8 @@ tclcommand="set show_hidden_texts 1; xschem annotate_op"
 }
 C {gf180mcu_fd_pr/annotate_fet_params.sym} -290 120 0 1 {name=annot2 ref=M1}
 C {gf180mcu_fd_pr/pfet3_03v3.sym} -80 -130 0 0 {name=M_DUT
-L=0.28u
-W=1.0u
+L=0.4u
+W=3.0u
 body=VDD
 nf=1
 m=1
@@ -187,8 +187,8 @@ model=pfet_03v3
 spiceprefix=X
 }
 C {gf180mcu_fd_pr/pfet3_03v3.sym} -380 -130 0 1 {name=M1
-L=0.28u
-W=1.0u
+L=0.4u
+W=3.0u
 body=VDD
 nf=1
 m=1

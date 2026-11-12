@@ -13,8 +13,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=3.151347e-10
-x2=4.9231347e-09
+x1=8.4734719e-11
+x2=4.6927347e-09
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -39,8 +39,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=3.151347e-10
-x2=4.9231347e-09
+x1=8.4734719e-11
+x2=4.6927347e-09
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -66,8 +66,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=3.151347e-10
-x2=4.9231347e-09
+x1=8.4734719e-11
+x2=4.6927347e-09
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -90,8 +90,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=3.151347e-10
-x2=4.9231347e-09
+x1=8.4734719e-11
+x2=4.6927347e-09
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -202,7 +202,7 @@ C {lab_wire.sym} -110 -120 0 1 {name=p1 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} -110 -100 0 1 {name=p2 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -110 180 0 1 {name=p3 sig_type=std_logic lab=Vs}
 C {vsource.sym} -260 130 0 0 {name=V1 value=3.3 savecurrent=true}
-C {vsource.sym} -200 130 0 0 {name=V2 value=2.8 savecurrent=true}
+C {vsource.sym} -200 130 0 0 {name=V2 value=1.8 savecurrent=true}
 C {lab_wire.sym} -260 60 0 1 {name=p4 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} -200 60 0 1 {name=p5 sig_type=std_logic lab=Vs}
 C {lab_wire.sym} -320 60 0 1 {name=p6 sig_type=std_logic lab=VSS}
@@ -212,7 +212,7 @@ C {lab_wire.sym} 630 100 0 1 {name=p7 sig_type=std_logic lab=out_p1a}
 C {lab_wire.sym} 630 60 0 1 {name=p8 sig_type=std_logic lab=out_p1b}
 C {lab_wire.sym} 380 60 0 1 {name=p9 sig_type=std_logic lab=out_p2a
 }
-C {lab_wire.sym} 380 100 0 1 {name=p10 sig_type=std_logic lab=out_p2b}
+C {lab_wire.sym} 370 100 0 1 {name=p10 sig_type=std_logic lab=out_p2b}
 C {devices/code.sym} -550 -90 0 0 {name=NGSPICE
 only_toplevel=false
 value="
@@ -263,12 +263,12 @@ textwindow $netlist_dir/[file rootname [file tail [xschem get current_name]]].sa
 }
 C {lab_wire.sym} 220 60 0 1 {mame=p11 sig_type=std_logic lab=out_p3a
 }
-C {lab_wire.sym} 220 100 0 1 {name=p12 sig_type=std_logic lab=out_p3b}
+C {lab_wire.sym} 210 100 0 1 {name=p12 sig_type=std_logic lab=out_p3b}
 C {ammeter.sym} 110 -50 0 0 {name=Vx3 savecurrent=true spice_ignore=0}
 C {xschem/delay_cell_v1.sym} 250 -40 0 0 {name=X3}
 C {lab_wire.sym} 60 60 0 1 {mame=p11 sig_type=std_logic lab=out_p4a
 }
-C {lab_wire.sym} 60 100 0 1 {name=p11 sig_type=std_logic lab=out_p4b}
+C {lab_wire.sym} 50 100 0 1 {name=p11 sig_type=std_logic lab=out_p4b}
 C {ammeter.sym} -50 -50 0 0 {name=Vx4 savecurrent=true spice_ignore=0}
 C {xschem/delay_cell_v1.sym} 90 -40 0 0 {name=X4}
 C {xschem/diff_buffer.sym} 600 210 0 0 {name=X6}
