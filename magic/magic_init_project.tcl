@@ -8,7 +8,7 @@
 
 # Change the settings below to match your design:
 # ------------------------------------------------
-set TOP_LEVEL_CELL     tt_gf180_sellicott_vco
+set TOP_LEVEL_CELL     tt_um_gf180_sellicott_vco
 set TEMPLATE_FILE      tt_block_1x2_pgvdd_pgvaa_ana.def
 set POWER_STRIPE_WIDTH 2um                 ;# The minimum width is 1.2um
 
